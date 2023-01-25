@@ -88,7 +88,8 @@ public class ListExerciseTest {
     /**
      * When an item is added to an empty list, the item can be retrieved by getting the element at index 0.
      */
-    public @Test void getItemTest1(){
+    @Test
+    public void getItemTest1(){
         List<Integer> list = le.createList();
         if(list == null){
             Assert.fail();        
@@ -102,7 +103,8 @@ public class ListExerciseTest {
     /**
      * When two items are added to an empty list, the second item can be retrieved by getting the element at index 1.
      */
-    public @Test void getItemTest2(){
+    @Test
+    public void getItemTest2(){
         List<Integer> list = le.createList();
         if(list == null){
             Assert.fail();        
@@ -116,7 +118,8 @@ public class ListExerciseTest {
     /**
      * When the only item in a list is removed, that list should be empty and should not contain the item.
      */
-    public @Test void removeFromListTest1(){
+    @Test
+    public void removeFromListTest1(){
         List<Integer> list = le.createList();
 
         if(list == null){
@@ -133,7 +136,8 @@ public class ListExerciseTest {
      * When an item is remove from a list that has two elements, it should not contain the removed item, but should
      * still contain the other item and have a size of 1.
      */
-    public @Test void removeFromListTest2(){
+    @Test
+    public void removeFromListTest2(){
         List<Integer> list = le.createList();
         if(list == null){
             Assert.fail();        
@@ -150,7 +154,8 @@ public class ListExerciseTest {
     /**
      * When we update a value in list, it should contain the new value and should not contain the old value.
      */
-    public @Test void updatePositionTest1(){
+    @Test
+    public void updatePositionTest1(){
         List<Integer> list = le.createList();
         if(list == null){
             Assert.fail();        
@@ -166,7 +171,8 @@ public class ListExerciseTest {
     /**
      * When we update a value in list, it should contain the new value and should not contain the old value.
      */
-    public @Test void updatePositionTest2(){
+    @Test
+    public void updatePositionTest2(){
         List<Integer> list = le.createList();
         if(list == null){
             Assert.fail();        
