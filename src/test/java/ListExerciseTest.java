@@ -6,10 +6,10 @@ import org.junit.Test;
 import java.util.List;
 
 public class ListExerciseTest {
-    static ListExercise le;
+    static Lab le;
     @BeforeClass
     public static void setUp(){
-        le = new ListExercise();
+        le = new Lab();
     }
 
     /**

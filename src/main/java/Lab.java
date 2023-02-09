@@ -1,5 +1,4 @@
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,7 +11,7 @@ import java.util.List;
  * You can read about ArrayList, which is the type of list you will most likely be using, here:
  * https://www.w3schools.com/java/java_arraylist.asp
  */
-public class ListExercise {
+public class Lab {
     /**
      * Instantiate and return a List of Integers.
      *
