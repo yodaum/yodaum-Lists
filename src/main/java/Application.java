@@ -26,7 +26,7 @@ public class Application {
         int item2 = listLab.get(myList, 1);
         System.out.println("after 7 is added, the item at index 1 should be 7. Currently it is: ");
         System.out.println(item2);
-
+        
         System.out.println("after those two numbers are added, the size should be 2. Currently it is: ");
         int size1 = listLab.getSize(myList);
         System.out.println(size1);
