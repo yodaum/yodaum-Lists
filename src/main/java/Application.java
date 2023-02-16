@@ -21,7 +21,6 @@ public class Application {
         System.out.println("after 5 is added, the item at index 0 should be 5. Currently it is: ");
         System.out.println(item1);
 
-        myList.add(7);
         listLab.addToList(myList, 7);
         int item2 = listLab.get(myList, 1);
         System.out.println("after 7 is added, the item at index 1 should be 7. Currently it is: ");
